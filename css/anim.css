@@ -1,0 +1,60 @@
+.baniere{
+position: relative;
+display: inline-flex;
+width: 900px;
+min-width: 100px;
+background-image:linear-gradient(60deg, black, #9a67a9);
+
+}
+#nebula{
+min-width: 21px;
+min-height:20px;
+
+}
+#titre{ font-family: 'Geostar', cursive;
+font-size: xx-large;
+z-index: 1;
+color: white;
+}
+
+
+
+#etoile1{
+position: absolute;
+top: 20%;
+left: 50%;
+width: 30px;
+
+}
+
+#etoile2{
+position: absolute;
+top: 43%;
+left: 65%;
+width: 40px;
+
+}
+
+#etoile3{
+position: absolute;
+top: 4%;
+left: 92%;
+width: 45px;
+
+}
+
+#etoile3{
+position: absolute;
+top: 4%;
+left: 92%;
+width: 60px;
+
+}
+
+#etoile4{
+position: absolute;
+top: 65%;
+left: 28%;
+width: 50px;
+
+}

@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
 
-    <title>Galaxy Voyance</title>
+    <title>Sticky Footer Navbar Template for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
     <link href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -42,74 +42,79 @@ include('includes/menu.php');
     <!-- Begin page content -->
     <main role="main" id="principe"class="container">
       
-<h1 style="text-align: center;">Bienvenue sur notre site !</h1>
-<div class="intro">Si tu as des questions que tu te poses ?<br>
-Sur ta vie <strong>sentimentale</strong>...<br>
-Sur ta <strong>famille</strong>...<br>
-Ton avenir <strong>professionnel</strong>...<br>
-Ou d'autres choses...<br>
-Comme la santé de ton <strong>animal</strong>…<br>
-L'avenir de tes <strong>petits-enfants</strong>...<br>
-L’arbre de ton <strong>jardin</strong>...<br>
-La voiture de ton <strong>père</strong>...<br>
-La cuisine de ta <strong>mère</strong>...<br>
-
-Nous sommes une <strong>équipe</strong> hyper diplômé des hautes sphères , écoles des <strong>dieux</strong> provenant des planètes minimois inconnues des terriens !<br>
-
-Partageons <strong>ensemble</strong> cette aventure qui te sera que bénéfique et t’apportera  des réponses justes à tes questions !<br>
-<strong>Viens et tente ta chance !</strong> </div>
+<h1>Nos voyants</h1>
+<div class="intro">
           <div class="row">
 
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card h-100">
-                <a href="tarot.php"><img class="card-img-top" src="images/jeu-de-tarot-braille.png" alt=""></a>
+                <a href="#"><img class="card-img-top" src="https://vignette.wikia.nocookie.net/nnd-compass/images/7/70/Len.jpg/revision/latest/scale-to-width-down/310?cb=20180429084339" alt=""></a>
                 <div class="card-body">
                    <h4 class="card-title">
-                  Tarot
+                  Vignette Bertrand
+
                   </h4>
-                  <p class="card-text"> Avec le tarot decouvez votre avenir</p>
+                  <p class="card-text"> </p>
                 </div>
-                <!-- <div class="card-footer">
-                  <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-                </div> -->
+                <div class="card-footer">
+                  <small class="text-muted">Appelez nous au 08.25.xx.xx.xx et tapez 1</small>
+                </div> 
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card h-100">
-                <a href="horoscope.php"><img class="card-img-top" src="http://www.legorafi.fr/wp-content/uploads/2015/08/horoscopehd-820x514.jpg" alt=""></a>
+                <a href="#"><img class="card-img-top" src="https://www.nautiljon.com/images/people/00/62/hatsune_miku_13626.jpg" alt=""></a>
                 <div class="card-body">
                   <h4 class="card-title">
-                    Horoscope
+Clémence Beausoleil
+
                   </h4>
-                  <p class="card-text">Découvrez votre horoscope gratuitement mis a jour chaque matin</p>
+                  <p class="card-text">a</p>
                 </div>
-                <!-- <div class="card-footer">
-                  <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-                </div> -->
+              <div class="card-footer">
+                  <small class="text-muted">Appelez nous au 08.25.xx.xx.xx et tapez 2</small>
+                </div> 
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card h-100">
-                <a href="voyants.php"><img class="card-img-top" src="https://lorio.eu/wp-content/uploads/2015/05/voyance-sms-678x381.jpg" alt=""></a>
+                <a href="#"><img class="card-img-top" src="https://i1.sndcdn.com/artworks-000140869159-xx39mf-t500x500.jpg" alt=""></a>
                 <div class="card-body">
                   <h4 class="card-title">
-                    voyants
+                    Orville Ménard
+
                   </h4>
-                  <p class="card-text">Decouvez nos voyants pour une consultation personalisé </p>
+                  <p class="card-text"> </p>
                 </div>
-                <!-- div class="card-footer">
-                  <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-                </div> -->
+              <div class="card-footer">
+                  <small class="text-muted">Appelez nous au 08.25.xx.xx.xx et tapez 3</small>
+                </div> 
+              </div>
+            </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <a href="#"><img class="card-img-top" src="https://vignette.wikia.nocookie.net/vocaloid/images/5/59/KAITOV3_boxart_2.jpg/revision/latest?cb=20140421163749&path-prefix=fr" alt=""></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                  Cinderella Sylvain
+                  </h4>
+                  <p class="card-text"> </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Appelez nous au 08.25.xx.xx.xx et tapez 4</small>
+                </div>
               </div>
             </div>
 
     </main>
 
-  <?php 
-  include('includes/footer.php');
-  ?>
+   <?php 
+
+   include('includes/footer.php');
+   ?>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

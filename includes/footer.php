@@ -1,3 +1,8 @@
-  <footer class="py-5 bg-dark">
-        <p class="m-0 text-center text-white">Copyright &copy; Simplon 2019 <br><p class="contact_f">contact: xx.xx.xx.xx.xx</p></p>
+
+        <footer class="footer">
+      <div class="container">
+        <span class="text-muted">©simplon 2019 </span>
+
+        <img src="images/Sans_titre.png" class="contact_f">
+      </div>
     </footer>

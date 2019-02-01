@@ -1,110 +1,170 @@
-  /*css menu by remy*/
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #D58490;
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
 }
-
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
 li {
-    padding-left:190px;
+
 
   float: left;
 }
 
 li a {
   display: block;
-  color: white;
+  /*color: #583C97;*//*on enleve*/
+  color: #aaaeb5;/*on met au footer aussi*/
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
-a:link  a:hover, a:visited, a:active { 
-text-decoration:none; 
-color : white;
-} 
-.droite{
-float: right;
+a:link  a:hover, a:visited, a:active {
+text-decoration:none;
+/*color : #583C97;*/ /*on enleve*/
+color: #aaaeb5; /*on met*/
+text-transform: uppercase;
 
+}
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
 }
 
 body{
-	background-color:#ab86b5 ;
+/* background-image: linear-gradient(#FEE7F0,#FFD9F2,
+#9a67a9);*/ /*on enleve*/
+background-image: linear-gradient(#b895b6,#9c62a7); /*on met*/
 }
-#container1{
-	background-color: #ecafd6;
-}
- 
- 
-#conteneur {
-margin-left: auto;
- margin-right: auto;
-  width: 1200px;
-  text-align: left; /* on rétablit l'alignement normal du texte */
-  background-color:#FFF;
+#principe{
+ /*background-image: linear-gradient(#FEE7F0,#FFD9F2,
+#9a67a9);*//*on enleve*/
+background: #e7c4ed; /*on met*/
+    /* Obligatoire si on veut "voir" le dégradé */
+   /* width: 1100px;
+    height: 900px;*/
 }
 
-.contact_f{
-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color :white;
-  float:right;
+#image {
+  text-align: center;
 }
 
-/*footer*/
+code {
+  font-size: 80%;
+}
+
+.baniere{
+position: relative;
+display: inline-flex;
+width: 900px;
+min-width: 100px;
+background-image:linear-gradient(60deg, black, #9a67a9);
+
+}
+#nebula{
+min-width: 21px;
+min-height:20px;
+
+}
+#titre{ font-family: 'Geostar', cursive;
+font-size: xx-large;
+z-index: 1;
+color: white;
+}
+
+
+
+#etoile1{
+position: absolute;
+top: 20%;
+left: 50%;
+width: 30px;
+
+}
+
+#etoile2{
+position: absolute;
+top: 43%;
+left: 65%;
+width: 40px;
+
+}
+
+#etoile3{
+position: absolute;
+top: 4%;
+left: 92%;
+width: 45px;
+
+}
+
+#etoile3{
+position: absolute;
+top: 4%;
+left: 92%;
+width: 60px;
+
+}
+
+#etoile4{
+position: absolute;
+top: 65%;
+left: 28%;
+width: 50px;
+
+}
 
 footer{
-  background-color:#222222;
-    padding: 60px 0px;
+  background-image: linear-gradient(#D998C3,#FFD9F2,
+#9a67a9);
 }
-
-footer ul{
-    list-style:none;
-    margin:0 auto;
-    display:inline-block;
-    padding-top:50px;
-}
-
-footer ul li{
-    float:left;
-}
-
-footer ul li a{
-  color:#b1aca1;
-    padding:20px;
-}
-
-footer ul li a:hover{
-  color:#7dabdb;
-  text-decoration:none;
-}
-
-.footer-top{
-  padding-bottom:50px;
-}
-
-.footer-top .fa{
-    font-size:18px;
-    color: #FFF;
-    padding-right:10px;
-}
-
-.footer-top a{
-    color:#FFF;
-    text-decoration:none;
-}
-
-.footer-top .col-lg-2:hover .fa , .footer-top .col-lg-2:hover a{
-    color:#7dabdb;
-}
-
 .copyright{
-    background-color:#f0f0f0;
+background-color:#54246c ;/*on met*/
 }
 
 .copyright p{
   font-size:12px;
   padding:15px 0 10px 0;
 }
+.navbar{
+   background-image: linear-gradient(#D998C3,#FFD9F2,
+#9a67a9);
+   color:black;
+}
 
+li a {
+  display: block;
+  color: #583C97;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.contact_f{
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*color: #583C97;on enleve*/
+  color: #fee696;/*on met*/
+  font-weight: bold;
+  font-size: x-large;
+  float:right;
+
+}
